@@ -20,7 +20,10 @@ class Car
     {
         static void Main(string[] args)
         {
-            
+             Console.WriteLine("--------TEST SPEED--------");
+            Car car1=new Car();
+            car1.carName="MERCADES E-CLASS";
+            car1.carSpeed=0;
         }
     }
 }
